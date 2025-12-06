@@ -33,8 +33,17 @@ const HeroCard = ({ name, image, id }) => {
 }
 
 HeroCard.propTypes = {
+  /**
+   * The id of the hero
+   */
   id: PropTypes.string.isRequired,
+  /**
+   * The name of the hero
+   */
   name: PropTypes.string.isRequired,
+  /**
+   * The image of the hero
+   */
   image: PropTypes.string.isRequired,
 }
 

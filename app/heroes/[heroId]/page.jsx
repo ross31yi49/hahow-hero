@@ -1,4 +1,4 @@
-import HeroProfile from '@/pages/heroProfile'
+import HeroProfile from '@/pages/HeroProfile'
 
 export const metadata = {
   title: 'Hero Profile Page',
