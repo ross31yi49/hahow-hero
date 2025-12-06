@@ -1,2 +1,9 @@
 # hahow-hero
-test for hahow interview
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+yarn dev
+```
