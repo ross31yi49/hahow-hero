@@ -13,17 +13,25 @@ export const Wrapper = styled.div`
   cursor: pointer;
   gap: 10px;
 
-  ${({ $isActive }) => $isActive && `
+  ${({ $isActive }) => $isActive ? `
     background-color: #1e9fd2;
+
+    &:hover {
+      background-color: #0f7aab;
+    }
+
+    &:active {
+      background-color: #055885;
+    }
+  ` : `
+    &:hover {
+      background-color: #e0e0e0;
+    }
+
+    &:active {
+      background-color: #d0d0d0;
+    }
   `}
-
-  &:hover {
-    background-color: #e0e0e0;
-  }
-
-  &:active {
-    background-color: #d0d0d0;
-  }
 `
 
 export const ImageWrapper = styled.div`

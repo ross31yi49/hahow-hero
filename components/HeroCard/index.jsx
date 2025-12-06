@@ -15,7 +15,6 @@ const HeroCard = ({ name, image, id }) => {
     return heroId === id
   }, [heroId, id])
 
-  console.log(isActive)
   return (
     <Wrapper onClick={handleClick} $isActive={isActive}>
       <ImageWrapper>
